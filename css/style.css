@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY BACKGROUND */
+body.auth-bg {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CARD CONTAINER */
+.reg-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 18px;
+    width: 420px;
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HEADER */
+.reg-card h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.step-info {
+    font-size: 13px;
+    color: #9ca3af;
+    margin-bottom: 20px;
+}
+
+/* FORM LAYOUT */
+.form-row {
+    display: flex;
+    gap: 12px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* LABEL */
+label {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-bottom: 4px;
+}
+
+/* INPUTS */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+    background: #1f2937;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #22c55e;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(34,197,94,0.3);
+}
+
+/* BUTTON */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #22c55e;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background: #16a34a;
+    transform: translateY(-1px);
+}
+
+/* ALERT */
+.alert {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.alert-error {
+    background: #3b0000;
+    color: #f87171;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+    .reg-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+}
