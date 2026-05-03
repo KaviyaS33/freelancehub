@@ -7,6 +7,13 @@ Clients can post job opportunities, and freelancers can browse and apply for tho
 
 ---
 
+## 🎥 Project Demo Video
+
+You can view the working demo of the project here:
+https://drive.google.com/file/d/1_di1YJOUql4F0m7XQLnQknK_PBeZVTrh/view?usp=drive_link
+
+---
+
 ## 🚀 Features
 
 ### 👨‍💼 Admin
@@ -89,6 +96,8 @@ Open `db.php` and update:
 $conn = new mysqli("127.0.0.1", "root", "your_password", "freelancehub");
 ```
 
+⚠️ Replace `"your_password"` with your MySQL root password.
+
 ---
 
 ### 4️⃣ Run the Project
@@ -118,6 +127,19 @@ Password: admin123
 
 ---
 
+## 🔗 Project Link
+
+GitHub Repository:
+https://github.com/KaviyaS33/freelancehub
+
+---
+
+## 📷 Screenshots
+
+(Add screenshots of your project here for better presentation)
+
+---
+
 ## 📌 Notes
 
 * Make sure MySQL server is running before starting the project
@@ -127,4 +149,4 @@ Password: admin123
 
 ## 👩‍💻 Author
 
-Kaviya S
+Kaviya
