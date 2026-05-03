@@ -149,4 +149,4 @@ https://github.com/KaviyaS33/freelancehub
 
 ## 👩‍💻 Author
 
-Kaviya
+Kaviya S
